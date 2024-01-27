@@ -23,25 +23,24 @@ const imageElement = document.querySelector('img');
 /* Step 4 - Adding Content */
 
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
+yearElement.textContent = currentYear;
 imageElement.setAttribute('src',profilePicture);
 imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
-
-
 /* Step 5 - Array */
 
-const favoriteFoods = ['crepes', 'pasta', 'fajitas', 'fettucine', 'pizza', 'steak'];
+const favoriteFoods = ['Crepes', 'Ice Cream', 'Fajitas', 'Pizza', 'Terriyaki Chicken', 'Steak'];
 
-const newFavoriteFood = 'NewFavoriteFood';
-
+const newFavoriteFood = 'Grilled Chicken';
 favoriteFoods.push(newFavoriteFood);
 
-foodElement.innerHTML += favoriteFoods.join(' ');
+foodElement.innerHTML += `${favoriteFoods.join(' ')}`;
+
+
+favoriteFoods.shift();
+foodElement.innerHTML += `<br>${favoriteFoods.join(' ')}`;
+
 
 favoriteFoods.pop();
-
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
-
-favoriteFoods.pop();
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+foodElement.innerHTML += `<br>${favoriteFoods.join(' ')}`;
 });
