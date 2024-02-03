@@ -68,3 +68,17 @@ document.querySelector("#enrollStudent").addEventListener("click", function() {
 
 setCourseInfo(aCourse);
 renderSections(aCourse.sections);
+
+changeEnrollment: function (sectionNum, add = true) {
+    const setionIndex = this.sections.findIndex(
+    (setion) => section.sectionNum == sectionNum
+    );
+    if (sectionIndex >=0) {
+        if (add) {
+            this.sections[sectionIndex].enrolled++;
+        } else {
+            this.sections[setionIndex].enrolled--;
+        }
+        renderSections(this.sections);
+    }
+}
