@@ -41,6 +41,7 @@ const reset = () => {
 };
 
 /* filterTemples Function */
+
 const filterTemples = (temples) => {
     reset();
 
@@ -52,8 +53,6 @@ const filterTemples = (temples) => {
             break;
         case 'nonutah':
             displayTemples(temples.filter(temple => !temple.location.includes('Utah')));
-            console.log(nonUtahTemples);
-            displayTemples(nonUtahTemples);
             break;
         case 'older':
             displayTemples(temples.filter(temple => new Date(temple.dedicated) < new Date (1950, 0, 1)));
