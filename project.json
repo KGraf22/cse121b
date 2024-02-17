@@ -1,0 +1,175 @@
+{
+    "rooms": {
+      "kitchen": {
+        "name": "Kitchen",
+        "imageUrl": "https://www.technocrazed.com/wp-content/uploads/2015/12/Kitchen-wallpaper-40.jpg",
+        "tasks": [
+          {
+            "id": 1,
+            "task": "Clean inside the refrigerator",
+            "status": "Incomplete"
+          },
+          {
+            "id": 2,
+            "task": "Clean and put away all dishes",
+            "status": "Incomplete"
+          },
+          {
+            "id": 3,
+            "task": "Clean sink and faucet",
+            "status": "Incomplete"
+          },
+          {
+            "id": 4,
+            "task": "Scrub and sanitize countertops",
+            "status": "Incomplete"
+          },
+          {
+            "id": 5,
+            "task": "Clean oven and stove burners",
+            "status": "Incomplete"
+          },
+          {
+            "id": 6,
+            "task": "Sweep and mop the floors",
+            "status": "Incomplete"
+          },
+          {
+            "id": 7,
+            "task": "Clean cabinets and handles",
+            "status": "Incomplete"
+          },
+          {
+            "id": 8,
+            "task": "Clean windows",
+            "status": "Incomplete"
+          }
+        ]
+      },
+      "bathroom": {
+        "name": "Bathroom",
+        "imageUrl": "https://i.pinimg.com/originals/6f/01/4a/6f014ab8bb2e624034121d259b6f15ae.jpg",
+        "tasks": [
+          {
+            "id": 9,
+            "task": "Scrub and disinfect bathtub and shower tiles",
+            "status": "Incomplete"
+          },
+          {
+            "id": 10,
+            "task": "Clean counter tops ",
+            "status": "Incomplete"
+          },
+          {
+            "id": 11,
+            "task": "Clean mirror",
+            "status": "Incomplete"
+          },
+          {
+            "id": 12,
+            "task": "Scrub the toilet",
+            "status": "Incomplete"
+          },
+          {
+            "id": 13,
+            "task": "Clean rugs",
+            "status": "Incomplete"
+          },
+          {
+            "id": 14,
+            "task": "Sweep and mop floors",
+            "status": "Incomplete"
+          }
+        ]
+      },
+      "living room": {
+        "name": "Living Room",
+        "imageUrl": "https://blog.puls.com/hubfs/puls-living-room-multfunctional-1.jpg",
+        "tasks": [
+          {
+            "id": 15,
+            "task": "pick up and put away miscellaneous items",
+            "status": "Incomplete"
+          },
+          {
+            "id": 16,
+            "task": "Vacuum upholstery and under furniture",
+            "status": "Incomplete"
+          },
+          {
+            "id": 17,
+            "task": "Dust blinds and baseboards",
+            "status": "Incomplete"
+          },
+          {
+            "id": 18,
+            "task": "Clean and polish wood furniture",
+            "status": "Incomplete"
+          },
+          {
+            "id": 19,
+            "task": "Vacuum floors",
+            "status": "Incomplete"
+          },
+          {
+            "id": 20,
+            "task": "Clean windows",
+            "status": "Incomplete"
+          }
+        ]
+      },
+      "bedroom": {
+        "name": "Bedroom",
+        "imageUrl": "https://images.pexels.com/photos/4713251/pexels-photo-4713251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tasks": [
+          {
+            "id": 21,
+            "task": "make bed",
+            "status": "Incomplete"
+          },
+          {
+            "id": 22,
+            "task": "pick up and put away miscellaneous items",
+            "status": "Incomplete"
+          },
+          {
+            "id": 23,
+            "task": "dust furniture",
+            "status": "Incomplete"
+          },
+          {
+            "id": 24,
+            "task": "clean bedroom window(s)",
+            "status": "Incomplete"
+          },
+          {
+            "id": 25,
+            "task": "vacuum floors",
+            "status": "Incomplete"
+          }
+        ]
+      },
+      "laundry room": {
+        "name": "Laundry Room",
+        "imageUrl": "https://i1.wp.com/hoomdecoration.com/wp-content/uploads/2020/05/The-Best-Laundry-Room-Design-Ideas-You-Must-Have-04.jpg?ssl=1",
+        "tasks": [
+          {
+            "id": 26,
+            "task": "wipe down appliances",
+            "status": "Incomplete"
+          },
+          {
+            "id": 27,
+            "task": "vacuum dryer vents",
+            "status": "Incomplete"
+          },
+          {
+            "id": 28,
+            "task": "Sweep and mop floors",
+            "status": "Incomplete"
+          }
+        ]
+      }
+    }
+  }
+  

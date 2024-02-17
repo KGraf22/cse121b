@@ -313,3 +313,53 @@ footer {
     }
 
 }
+/* Style for task list */
+#room ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for individual tasks */
+  #room li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for task checkbox */
+  .task-checkbox {
+    margin-right: 5px;
+  }
+  
+  /* Style for room heading */
+  #room h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  /* Style for room image */
+  #room img {
+    width: 400px;
+    height:auto;
+    margin-right: 20px;
+    /*object-fit: contain;*/
+  }
+  
+  #task-list {
+    flex: 1;
+    padding-left:  20px;
+    text-transform: capitalize;
+  }
+
+  /* Add styles for task checkboxes */
+  .task-checkbox {
+      margin-right: 10px;
+  }
+  
+  /* Increase font size for tasks */
+  #room label {
+    font-size: 16px; 
+  }
+  .container {
+    display: flex;
+    align-items: flex-start;
+    /*justify-content: space-between;*/
+  }
