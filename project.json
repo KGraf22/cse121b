@@ -88,7 +88,7 @@
         "tasks": [
           {
             "id": 15,
-            "task": "pick up and put away miscellaneous items",
+            "task": "Pick up and put away miscellaneous items",
             "status": "Incomplete"
           },
           {
@@ -124,27 +124,27 @@
         "tasks": [
           {
             "id": 21,
-            "task": "make bed",
+            "task": "Make bed",
             "status": "Incomplete"
           },
           {
             "id": 22,
-            "task": "pick up and put away miscellaneous items",
+            "task": "Pick up and put away miscellaneous items",
             "status": "Incomplete"
           },
           {
             "id": 23,
-            "task": "dust furniture",
+            "task": "Dust furniture",
             "status": "Incomplete"
           },
           {
             "id": 24,
-            "task": "clean bedroom window(s)",
+            "task": "Clean bedroom window(s)",
             "status": "Incomplete"
           },
           {
             "id": 25,
-            "task": "vacuum floors",
+            "task": "Vacuum floors",
             "status": "Incomplete"
           }
         ]
@@ -155,12 +155,12 @@
         "tasks": [
           {
             "id": 26,
-            "task": "wipe down appliances",
+            "task": "Wipe down appliances",
             "status": "Incomplete"
           },
           {
             "id": 27,
-            "task": "vacuum dryer vents",
+            "task": "Vacuum dryer vents",
             "status": "Incomplete"
           },
           {
